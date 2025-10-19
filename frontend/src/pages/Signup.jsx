@@ -23,7 +23,7 @@ const Signup = () => {
     }
 
     try {
-      const response = await axios.post('https://ai-interview-app-pwdb.onrender.com/api/auth/register', {
+      const response = await axios.post('https://ai-interview-coach-5nij.onrender.com/api/auth/register', {
         name,
         email,
         password,

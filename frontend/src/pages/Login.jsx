@@ -16,7 +16,7 @@ const Login = () => {
     setError(null); 
 
     try {
-      const response = await axios.post('https://ai-interview-app-pwdb.onrender.com/api/auth/login', {
+      const response = await axios.post('https://ai-interview-coach-5nij.onrender.com/api/auth/login', {
         email,
         password,
       });

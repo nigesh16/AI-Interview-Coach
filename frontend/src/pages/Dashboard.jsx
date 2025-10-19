@@ -4,7 +4,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { Play, Check, RefreshCcw, History } from 'lucide-react'; 
 
-const API_BASE_URL = 'https://ai-interview-app-pwdb.onrender.com/api/interview';
+const API_BASE_URL = 'https://ai-interview-coach-5nij.onrender.com/api/interview';
 
 
 const getAuthHeaders = () => ({
