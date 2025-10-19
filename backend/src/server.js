@@ -13,7 +13,7 @@ const app = express();
 const _dirname = path.resolve();
 
 app.use(cors({
-    origin: "https://ai-interview-app-pwdb.onrender.com",
+    origin: "https://ai-interview-coach-one.vercel.app",
     credentials: true, 
 }));
 
