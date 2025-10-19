@@ -35,7 +35,7 @@ const Signup = () => {
 
       navigate('/dashboard');
     } catch (err) {
-      console.error('Signup error:', err.response?.data?.message || err.message);
+      console.log('Signup error:', err.response?.data?.message || err.message);
       setError(err.response?.data?.message || 'Registration failed. Please try again.');
     } finally {
       setIsLoading(false);
